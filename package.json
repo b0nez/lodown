@@ -1,0 +1,35 @@
+{
+  "name": "lodown-jmenkin",
+  "version": "1.0.3",
+  "description": "An npm functional programming library project",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "istanbul cover _mocha -- test/ -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b0nez/lodown.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/b0nez/lodown/issues"
+  },
+  "homepage": "https://github.com/b0nez/lodown#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "i": "^0.3.5",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.0.2",
+    "sinon": "^1.17.5"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "i": "^0.3.5",
+    "sinon": "^1.17.5"
+  }
+}
